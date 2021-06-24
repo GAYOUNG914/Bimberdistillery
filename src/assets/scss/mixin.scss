@@ -1,0 +1,54 @@
+//변수선언
+$containerWidth: 100%;
+$columWidth: 6.5%;
+$gutterWidth: 2%;
+
+// 그리드함수
+@mixin col($count) {
+  width: ($columWidth * $count) + ($gutterWidth * ($count - 1));
+}
+
+//layout
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: $containerWidth;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  [class*="col"] {
+    //[속성이름*=속성값] 여기서 *는, 속성값 col을 포함하는 모든 class속성의 요소들을 선택
+    margin-left: $gutterWidth;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+// for 구문 적용
+@for $i from 1 through 12 {
+  .col_#{$i} {
+    @include col($i);
+  }
+}
+// .col_1{@include col(1);}
+// .col_2{@include col(2);}
+// .col_3{@include col(3);}
+// .col_4{@include col(4);}
+// .col_5{@include col(5);}
+// .col_6{@include col(6);}
+// .col_7{@include col(7);}
+// .col_8{@include col(8);}
+// .col_9{@include col(9);}
+// .col_10{@include col(10);}
+// .col_11{@include col(11);}
+// .col_12{@include col(12);}
