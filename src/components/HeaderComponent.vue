@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <!-- 헤더 영역  -->
-    <div class="container">
+    <div class="wrap">
       <div class="row header_row">
         <div class="col_2 header_col">
           <h1 id="top_logo">

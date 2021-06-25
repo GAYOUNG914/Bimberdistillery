@@ -1,0 +1,18 @@
+.sub_mainbanner_bimber {
+  background: url("./assets/img/company/bimber_banner.png") center center
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+main.subpage {
+  .wrap_bimber {
+    width: 100%;
+  }
+}
+
+.klub_inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}

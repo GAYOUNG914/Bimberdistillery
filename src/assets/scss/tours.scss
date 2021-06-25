@@ -1,0 +1,63 @@
+.subpage.subpage_tour {
+  background: #fff;
+  .wrap {
+    .tours_grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 500px);
+      grid-gap: 15px;
+      justify-items: center;
+      align-items: center;
+      margin: 80px 0 80px;
+      .item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        overflow: hidden;
+        img {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.6);
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.3s;
+        }
+        span {
+          position: absolute;
+          left: 10%;
+          top: 5%;
+          color: #f9f9f9;
+          text-transform: capitalize;
+          font-size: 30px;
+          letter-spacing: 1.5px;
+          line-height: 1.2;
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}
+
+.subpage .wrap .tours_grid .item:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+.subpage .wrap .tours_grid .item:hover span {
+  opacity: 1;
+  visibility: visible;
+}

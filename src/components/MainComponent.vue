@@ -10,7 +10,7 @@
       ></video>
     </div>
     <!-- 컨텐츠 영역 -->
-    <div class="container">
+    <div class="wrap">
       <div class="content">
         <div class="inner inner1">
           <div class="box">
@@ -75,7 +75,7 @@
           </div>
         </div>
         <div class="inner inner2">
-          <div class="container">
+          <div class="wrap">
             <div class="row">
               <div class="col_6 column_in2">
                 <img src="../assets/img/main-grid-1.png">
