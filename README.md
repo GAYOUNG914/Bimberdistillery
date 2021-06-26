@@ -7,12 +7,12 @@ SCSS function으로 만든 grid와(header, footer, main page), css 속성인 gri
 기존의 사이트의 이미지에 호버효과를 넣고 레이아웃을 약간 변형시켜 좀 더 풍성한 느낌의 사이트로 제작해보았습니다.
 
 ## Link
-* https://nervous-pasteur-7c15ad.netlify.app
+* https://gayoung914.github.io/Bimber/#/
 * subpapge
-  - https://nervous-pasteur-7c15ad.netlify.app/#/ourcraft
-  - https://nervous-pasteur-7c15ad.netlify.app/#/bimberklub
-  - https://nervous-pasteur-7c15ad.netlify.app/#/tours
-  - https://nervous-pasteur-7c15ad.netlify.app/#/blog
+  - https://gayoung914.github.io/Bimber/#/ourcraft
+  - https://gayoung914.github.io/Bimber/#/bimberklub
+  - https://gayoung914.github.io/Bimber/#/tours
+  - https://gayoung914.github.io/Bimber/#/blog
 
 ## Tool
 * HTML5
